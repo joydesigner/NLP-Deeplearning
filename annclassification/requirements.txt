@@ -1,0 +1,11 @@
+# requirements.txt
+tensorflow          # Stable version compatible with scikeras
+pandas           # Latest stable pandas
+numpy             # Latest numpy (compatible with pandas/tensorflow)
+scikit-learn        # Critical: scikeras requires scikit-learn <=1.2
+tensorboard       # Matches tensorflow version
+matplotlib        # Latest matplotlib
+streamlit         # Latest streamlit
+scikeras         # Fixed version for scikit-learn 1.2 compatibility
+ipykernel          # Latest ipykernel for Jupyter integration
+python-dotenv      # Optional: for environment variables (if needed)
